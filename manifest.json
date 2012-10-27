@@ -1,0 +1,11 @@
+{
+  "name": "ChromeDic",
+  "version": "0.1",
+  "description": "Chrome Dict with mouse drag!",
+  "permissions": ["contextMenus", "tabs", "http://*/*", "https://*/*"],
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "icons": { "16": "icon_16.png" },
+  "manifest_version": 2
+}
